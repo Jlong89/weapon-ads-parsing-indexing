@@ -68,7 +68,7 @@ data is indexed into the elasticsearch instance running at localhost:9200.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. 	Create 'weapons_tika_index' and 'weapon_doc' mapping, and parse and index documents into the new index:
+1. 	Create 'weapons_tika_index' and 'weapon_doc' mapping, and parse and index documents into the new index. The first script creates 	the index and defines the mapping on Elasticsearch for our documents and the second parses and indexes documents into the newly created index:
 
 	
 	```
