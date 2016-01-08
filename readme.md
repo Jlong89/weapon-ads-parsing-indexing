@@ -3,7 +3,7 @@ Parsing and Indexing of firearm ads with Apache Tika and Elasticsearch
 
 USC CS572 fall 2015 project. This is the second part of a series of assignments to crawl, index and visualize ads selling firearms on the internet. 
 
-The following is a description of how we parsed and indexed crawled html and images, crawled with Apache Nutch, into an instance of Elastisearch. We leveraged Apache Tika
+The following is a description of how we parsed and indexed html and images of firearm ads, crawled with Apache Nutch, into an instance of Elastisearch. We leveraged Apache Tika
 for content detection and parsing out text and metadata from crawled documents. We also used GeoTopicParser, a Tika Geo NER Tool, to 
 identify the name of location of the ads as well as provide long/lat information about each ad. Lastly, we also used Tika-OCR to leverage
 Tesseract OCR to obtain textual content from images. 
